@@ -1,0 +1,44 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react-router-dom": "^6.11.2",
+      "sass": "^1.62.1",
+      "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+      "@babel/eslint-parser": "^7.21.8",
+      "@babel/preset-env": "^7.21.5",
+      "@babel/preset-react": "^7.18.6",
+      "@coax/eslint-config-fe-react": "^1.0.0",
+      "eslint": "^8.40.0",
+      "eslint-config-prettier": "^8.8.0",
+      "eslint-plugin-react": "^7.32.2",
+      "identity-obj-proxy": "^3.0.0",
+      "jest-canvas-mock": "^2.5.1",
+      "pre-commit": "^1.2.2",
+      "prettier": "^2.8.8",
+      "resize-observer-polyfill": "^1.5.1",
+      "serve": "^14.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "build:test": "serve -s build",
+      "test": "jest",
+      "lint": "eslint --fix --quiet ./",
+      "lint:ci": "eslint -f json -o eslint-report.json ./",
+      "test:dev": "jest --watch --watchAll.",
+      "test:ci": "jest --coverage --silent=true",
+      "prettier:format": "prettier --write .",
+      "prettier:check": "prettier --check .",
+      "eject": "react-scripts eject"
+    },
+    "pre-commit": [
+      "prettier:check",
+      "lint"
+    ]
+  }
+}
