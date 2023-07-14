@@ -21,6 +21,7 @@ You will need to install these:
 - [API Documentation](#)
 - [FrontEnd repository](#)
 - [Backend repository](#)
+- [React Template: coax-react-js](https://github.com/coaxsoft/react-template-js)
 TODO other resources
 
 ## Commands
