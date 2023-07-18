@@ -37,7 +37,7 @@
       "eject": "react-scripts eject"
     },
     "pre-commit": [
-      "prettier:check",
+      "prettier:format",
       "lint"
     ]
   }
