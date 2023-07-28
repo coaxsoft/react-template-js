@@ -1,12 +1,13 @@
 {
   "name": "cra-template-coax-react-js",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "keywords": [
     "react",
     "create-react-app",
     "template"
   ],
   "description": "The base template for Create React App.",
+  "homepage": "https://github.com/coaxsoft/react-template-js",
   "repository": {
     "type": "git",
     "url": "https://github.com/coaxsoft/react-template-js",
