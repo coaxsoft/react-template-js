@@ -41,3 +41,18 @@ This template contains the following features:
  - pre-commit
  - git actions
  - sonar
+
+# Deployment
+
+After the project is ready for deployment, you need to update the following files:
+
+`package.json`
+
+Update the version of the project in the `package.json` file.
+
+Run the following command to publish the project:
+
+```console
+npm publish
+```
+
